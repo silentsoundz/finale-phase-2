@@ -1,13 +1,16 @@
 const assert = require('chai').assert;
 const {weekday, capitolizeFourth, getValues, filterAround}   = require('./functions.js')
 
-describe.only('tests for weekday', () => {
+describe('tests for weekday', () => {
   it('weekday should return the weekday as a string ', () => {
-    assert.equal(weekday(1977, 8, 28),'Wednesday')
+    let testDate = new Date(1977, 8, 28)
+    assert.equal(weekday(testDate),'Wednesday')
+  ;
   })
   it('weekday should throw an error', () => {
+    let testDate = new Date('Bob')
     assert.throws(() => {
-      weekday('Bob')}, Error, 'This is not a valid date Object')
+      weekday(testDate)}, Error, 'This is not a valid date Object')
   })
 })
 
@@ -39,6 +42,6 @@ describe('tests for filterAround', ()=> {
       filterAround('supercalafragalisticexpialadoshus')}, Error, 'Please enter a valid Array')
   })
   it('filterAround returns a new array containing only the elements from the source array that come before lower alphabetically and after upper', () => {
-    assert.deep(filterAround(['dog', 'cat', 'zebra', 'ape', 'lion', 'cow'],'cow', 'dog'), ['cat', 'zebra', 'ape', 'lion'])
+    assert.deepEqual(filterAround(['dog', 'cat', 'zebra', 'ape', 'lion', 'cow'],'cow', 'dog'), ['cat', 'zebra', 'ape', 'lion'])
   })
 })
