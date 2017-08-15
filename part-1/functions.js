@@ -1,5 +1,4 @@
 const myDate = new Date(1977, 8, 28)
-
 const weekday = date => {
   if(date instanceof Date) {
     const index = date.getDay()
@@ -33,16 +32,15 @@ const getValues = object => {
   }
 }
 
-const filterAround = (array, lower, upper) => {
+let filterAround = (array, lower, upper) => {
   if(!Array.isArray(array)) {
     throw new Error('Please enter a valid Array')
   }
   let filteredArray = array.filter(element => {
-    return element < lower && element > upper
+    return (element < lower || element > upper)
   })
-  console.log(filteredArray);
   return filteredArray
 }
 
 
-module.exports = {weekday, capitolizeFourth, getValues, filterAround}
+module.exports = {weekday, capitolizeFourth, getValues, filterAround} 

@@ -19,8 +19,8 @@ Each requirement has a point value. A fully complete requirement gets full point
 
 ## General Requirements
 
-- [ ] __10:__ Solution is in a public GitHub repository called `phase-2-challenge-c`.
-- [ ] __10:__ Solution repository has 4 folders: `part-1`, `part-2`, and `part-3`, and `part-4`.
+- [x] __10:__ Solution is in a public GitHub repository called `phase-2-challenge-c`.
+- [x] __10:__ Solution repository has 4 folders: `part-1`, `part-2`, and `part-3`, and `part-4`.
 - [ ] __20:__ Git history shows frequent commits.
 
 ## Part 1: Write tests and solutions for these functions
@@ -45,9 +45,9 @@ weekday(dateB) // returns "Sunday"
 
 #### Requirements
 
-- [ ] __10:__ A test using expected/valid inputs for the `weekday()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `weekday()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `weekday()` is defined in `functions.js`.
+- [x] __10:__ A test using expected/valid inputs for the `weekday()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `weekday()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `weekday()` is defined in `functions.js`.
 - [ ] __10:__ Tests for `weekday()` are passing.
 
 ### Capitalize every 4th character
@@ -63,10 +63,10 @@ capitalizeFourth("ABRACADABRA") // => "abrAcadAbra"
 
 #### Requirements
 
-- [ ] __10:__ A test using expected/valid inputs for the `capitalizeFourth()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `capitalizeFourth()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `capitalizeFourth()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `capitalizeFourth()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `capitalizeFourth()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `capitalizeFourth()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `capitalizeFourth()` is defined in `functions.js`.
+- [x] __10:__ Tests for `capitalizeFourth()` are passing.
 
 ### List of values for object
 
@@ -88,10 +88,10 @@ getValues({}) // => []
 
 #### Requirements
 
-- [ ] __10:__ A test using expected/valid inputs for the `getValues()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `getValues()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `getValues()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `getValues()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `getValues()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `getValues()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `getValues()` is defined in `functions.js`.
+- [x] __10:__ Tests for `getValues()` are passing.
 
 ### Filter around
 
@@ -109,10 +109,10 @@ filterAround(animals, 'aardvark', 'zebu') // => []
 
 #### Requirements
 
-- [ ] __10:__ A test using expected/valid inputs for the `filterAround()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `filterAround()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `filterAround()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `filterAround()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `filterAround()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `filterAround()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `filterAround()` is defined in `functions.js`.
+- [x] __10:__ Tests for `filterAround()` are passing.
 
 ## Part 2: Extract data from JSON file
 
@@ -162,8 +162,8 @@ Finding cars with model "jetta"...
 
 #### Requirements
 
-- [ ] __40:__ `searchInYears.js` script prints the car  `id`, `make`, `model`, and `year` for all cars with a year inside the year range provided in the script argument. The range is _inclusive_—i.e. include cars with the same year as the start year or the end year of the range, as well as all years in between.
-- [ ] __40:__ `searchByModel.js` script prints the car `id`, `model`, `year`, `last_owner`, and `date_purchased` for all cars with a `model` that matches the provided argument (ignoring case).
+- [x] __40:__ `searchInYears.js` script prints the car  `id`, `make`, `model`, and `year` for all cars with a year inside the year range provided in the script argument. The range is _inclusive_—i.e. include cars with the same year as the start year or the end year of the range, as well as all years in between.
+- [x] __40:__ `searchByModel.js` script prints the car `id`, `model`, `year`, `last_owner`, and `date_purchased` for all cars with a `model` that matches the provided argument (ignoring case).
 
 ## Part 3: HTML layout for Bookstore
 
