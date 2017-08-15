@@ -2,7 +2,7 @@
   "name": "part-1",
   "version": "1.0.0",
   "description": "",
-  "main": "function.js",
+  "main": "functions.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register ./tests.js"
   },
