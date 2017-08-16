@@ -119,11 +119,11 @@
 
 - Give an example of a file or folder pattern you commonly add to a .gitignore file and why you add it  
    -`*.bin` also `node_modules` .gitignore ignores certain files and protects them from the public.
-   
+
 - What are the main differences between `Array.sort` and `Array.filter` in JavaScript?
 
    -`Array.sort` sorts the elements in a array and returns the original array.
-   -`Array.filter` creates a new array with all elements that pass the test implemented by the provided function.
+   -`Array.filter` takes a callback function and creates a new array with all elements that return true by passing the test implemented by the provided function.
 
 ### Requirements
 
