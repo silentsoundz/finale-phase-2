@@ -2,9 +2,9 @@ const cars = require('./cars.json')
 const searchArg = process.argv[2].toLowerCase()
 
 const searchByModel = model => {
-  let filteredArray = cars.filter((modelName) => {
-    if(modelName.model.toLowerCase() === model) {
-      return(modelName)
+  let filteredArray = cars.filter((vehicle) => {
+    if(vehicle.model.toLowerCase() === model) {
+      return(vehicle)
     }
   })
   return filteredArray.map(filteredCar => {
