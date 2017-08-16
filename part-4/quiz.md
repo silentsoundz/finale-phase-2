@@ -2,7 +2,7 @@
 
 
 - What is the PATH environment variable used for in UNIX systems?
-   -it is used every time we run a command in the terminal.
+   - it is used every time we run a command in the terminal.
 
 - On a UNIX computer, how do you stop a running process?
    - `Ctrl-C` if this doesn't work you need to get the PID. This can be done by using the top command to locate the process. Then you can run the kill command</br>
@@ -37,7 +37,7 @@
    pwd returns /Users/lucy/one
 
 - How do you see which environment variables are set in your shell?
-   -use the `env` command to see the default variable list.
+   - use the `env` command to see the default variable list.
 
 - What keyboard shortcut do you use to perform a "Find" search in your editor?
    - `Cmd+f`
@@ -115,7 +115,7 @@
    - `cp README.md ../airbnb-for-llamas`
 
 - What keyboard shortcut do you use in your editor to quickly navigate to a file in the current project?
-  -`open <fileName>`
+  - `Cmd+b `
 
 - Give an example of a file or folder pattern you commonly add to a .gitignore file and why you add it  
    -`*.bin` also `node_modules` .gitignore ignores certain files and protects them from the public.
@@ -127,4 +127,4 @@
 
 ### Requirements
 
-- [ ] __50:__ All questions are answered correctly.
+- [x] __50:__ All questions are answered correctly.
